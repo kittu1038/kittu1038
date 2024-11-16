@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shophits - Online Store</title>
+    <link rel="stylesheet" href="lol.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">ShopHits</div>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Deals</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <div class="header-right">
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search products..."
+        />
+        <button class="login-btn">Sign In</button>
+        <button class="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Welcome to ShopHits</h1>
+      <p>Find the best deals on your favorite products!</p>
+      <br>
+      <button class="shop-now">Shop Now</button>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="categories">
+      <h2>Top Categories</h2>
+      <div class="category-list">
+        <div class="category-item">Electronics</div>
+        <div class="category-item">Fashion</div>
+        <div class="category-item">Home & Kitchen</div>
+        <div class="category-item">Beauty</div>
+      </div>
+    </section>
+
+    <!-- Product Listings -->
+    <section class="products">
+      <h2>Featured Products</h2>
+      <br>
+      <div class="product-grid">
+        <div class="product-card" data-name="Smartphone" data-price="599">
+          <img
+            src="https://images.moneycontrol.com/static-mcnews/2023/09/2023-04-17T091646Z_288709614_RC26G0A3J2CJ_RTRMADP_3_APPLE-INDIA-RETAIL-STORE.jpg"
+            alt="Smartphone"
+          />
+          <h3>Smartphone</h3>
+          <p class="price">$599</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card" data-name="Headphones" data-price="199">
+          <img src="https://inbox.ph/wp-content/uploads/2021/05/aIRPODS-MAX-main-1.jpg" alt="Headphones" />
+          <h3>Headphones</h3>
+          <p class="price">$199</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card" data-name="Laptop" data-price="999">
+          <img src="https://wallpaperaccess.com/full/4172360.jpg" alt="Laptop" />
+          <h3>Laptop</h3>
+          <p class="price">$999</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card" data-name="Shoes" data-price="79">
+          <img src="https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/2560w/products/26009/239562/black-designer-formal-oxford-shoes-for-men-wedding-shoes-leather-italy-pointed-toe-mens-dress-shoes__96259.1549627129.jpg?c=2" alt="Shoes" />
+          <h3>Shoes</h3>
+          <p class="price">$79</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 Shophits. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
